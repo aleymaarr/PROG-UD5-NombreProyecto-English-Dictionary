@@ -22,7 +22,6 @@ public class Main {
             String opcion = scanner.nextLine();
 
             switch (opcion) {
-
                 case "1":
                     System.out.println("Ingrese la palabra:");
                     String palabra = scanner.nextLine();
@@ -78,6 +77,7 @@ public class Main {
                     System.out.println("Cerrando programa...");
                     scanner.close();
                     return;
+
 
                 default:
                     System.out.println("Opción inválida, por favor intenta nuevamente.");
