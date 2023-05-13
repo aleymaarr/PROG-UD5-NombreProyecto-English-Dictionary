@@ -22,7 +22,6 @@ public class Main {
             String opcion = scanner.nextLine();
 
             switch (opcion) {
-
                 case "1":
                     System.out.println("Ingrese la palabra:");
                     String palabra = scanner.nextLine();
@@ -32,7 +31,6 @@ public class Main {
                         System.out.println("La palabra ya estaba almacenada.");
                     }
                     break;
-
                 case "2":
                     System.out.println("Ingrese la palabra a eliminar:");
                     String palabraEliminar = scanner.nextLine();
@@ -42,7 +40,6 @@ public class Main {
                         System.out.println("La palabra no estaba almacenada.");
                     }
                     break;
-
                 case "3":
                     System.out.println("Ingrese la palabra a buscar:");
                     String palabraBuscar = scanner.nextLine();
@@ -52,7 +49,6 @@ public class Main {
                         System.out.println("La palabra no se encontró en el diccionario.");
                     }
                     break;
-
                 case "4":
                     System.out.println("Iniciales disponibles:");
                     Set<Character> iniciales = diccionario.obtenerInicialesDisponibles();
@@ -60,7 +56,6 @@ public class Main {
                         System.out.println(inicial);
                     }
                     break;
-
                 case "5":
                     System.out.println("Ingrese la inicial:");
                     char inicial = scanner.nextLine().charAt(0);
@@ -73,12 +68,10 @@ public class Main {
                         System.out.println("No hay palabras que comiencen con esa inicial.");
                     }
                     break;
-
                 case "6":
                     System.out.println("Cerrando programa...");
                     scanner.close();
                     return;
-
                 default:
                     System.out.println("Opción inválida, por favor intenta nuevamente.");
                     break;
