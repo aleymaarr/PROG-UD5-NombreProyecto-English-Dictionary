@@ -52,6 +52,12 @@ public class Diccionario {
         return false;
     }
 
+    public Set<Character> obtenerInicialesDisponibles() {
+        return mapaPalabras.keySet();
+    }
+
+
+
 
 
 
