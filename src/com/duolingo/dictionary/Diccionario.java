@@ -30,6 +30,17 @@ public class Diccionario {
         return mapaPalabras.get(inicial).add(palabra);
     }
 
+    private boolean agregarVerboFrasal(String verboFrasal) {
+        Character inicial = Character.toLowerCase(verboFrasal.charAt(0));
+        verboFrasal = verboFrasal.trim().toLowerCase();
+
+        if (!mapaVerbosFrases.containsKey(inicial)) {
+            mapaVerbosFrases.put(inicial, new TreeSet<>());
+        }
+
+        return mapaVerbosFrases.get(inicial).add(verboFrasal);
+    }
+
 
 
 }
