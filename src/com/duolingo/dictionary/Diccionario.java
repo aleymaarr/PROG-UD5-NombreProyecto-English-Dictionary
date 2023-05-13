@@ -56,6 +56,16 @@ public class Diccionario {
         return mapaPalabras.keySet();
     }
 
+    public Set<String> obtenerPalabrasPorInicial(char inicial) {
+        inicial = Character.toLowerCase(inicial);
+
+        if (mapaPalabras.containsKey(inicial)) {
+            return mapaPalabras.get(inicial);
+        }
+
+        return null;
+    }
+
 
 
 
