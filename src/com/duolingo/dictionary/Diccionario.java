@@ -41,6 +41,17 @@ public class Diccionario {
         return mapaVerbosFrases.get(inicial).add(verboFrasal);
     }
 
+    public boolean eliminarPalabra(String palabra) {
+        Character inicial = Character.toLowerCase(palabra.charAt(0));
+        palabra = palabra.trim().toLowerCase();
+
+        if (mapaPalabras.containsKey(inicial)) {
+            return mapaPalabras.get(inicial).remove(palabra);
+        }
+
+        return false;
+    }
+
     public boolean palabraExiste(String palabra) {
         Character inicial = Character.toLowerCase(palabra.charAt(0));
         palabra = palabra.trim().toLowerCase();
