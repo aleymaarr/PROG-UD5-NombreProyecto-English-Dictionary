@@ -1,5 +1,3 @@
-# PROG-UD5-NombreProyecto-English-Dictionary
-
 ## Menú
 
 La clase ejecutable del proyecto incluye un menú con las siguientes opciones:
