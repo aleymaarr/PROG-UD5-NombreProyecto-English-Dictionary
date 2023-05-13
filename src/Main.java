@@ -20,6 +20,7 @@ public class Main {
             System.out.println("6. Cerrar programa");
 
             String opcion = scanner.nextLine();
+
             switch (opcion) {
 
                 case "1":
@@ -77,6 +78,7 @@ public class Main {
                     System.out.println("Cerrando programa...");
                     scanner.close();
                     return;
+
                 default:
                     System.out.println("Opción inválida, por favor intenta nuevamente.");
                     break;
