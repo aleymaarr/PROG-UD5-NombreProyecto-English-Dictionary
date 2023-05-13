@@ -2,7 +2,6 @@
 
 # Documentación de la aplicación "Duolingo Dictionary"
 
-
 ### Descripción
 
 La aplicación "Duolingo Dictionary" es una herramienta que permite a los usuarios guardar y revisar las palabras en inglés que van aprendiendo cada día. La aplicación ha sido solicitada por la empresa Duolingo Inc.
